@@ -1,6 +1,6 @@
 #PROBLEM: the pretrained model isn't as accurate as we want it to be,
 #because in the picture that we use it detects two faces in one head and when we change the 3rd value to 6 (in the function detectMultiScale),
-#not only it doen't fix the problem(make it more accurate) but also it doesn't detect another face.
+#not only it doen't fix the problem but it, also, doesn't detect the last face.
 
 import numpy as np
 import cv2
